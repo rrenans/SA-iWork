@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #d93f078f, #f2b705);
+    height: 735px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+img {
+    margin: 200px 100px 100px 300px;
+    width: 50%;
+}
+
+#formLogin {
+    max-width: 460px;
+    margin-top:16%;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #242320;
+    padding: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+label, legend, p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16pt;
+    color:#FAEABC;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    background: #E14E08;
+    color:#FAEABC;
+    padding: 21px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: red;
+    transition-duration: 350ms;
+}

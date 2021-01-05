@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to bottom right, #d93f078f, #f2b705);
+}
+
+.row { 
+    display: flex;
+    justify-content: center;
+}
+
+.column-image {
+    flex: 40%;
+}
+
+.column-form1{
+    flex: 20%;
+}
+
+.column-form2{
+    flex: 20%;
+}
+
+img {
+    margin: 220px 0 0 160px;
+    width: 40%;
+}
+
+.formCadastro {
+    max-width: 350px;
+    margin-top:22%;
+    margin-bottom: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #242320;
+    padding: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+label, legend, p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color:#FAEABC;
+}
+
+button {
+    width: 100%;
+    background: #E14E08;
+    color:#FAEABC;
+    padding: 21px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 25px;
+}
