@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="style/cadastro.css">
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="column-image">
+                <a href="index.html">
+                    <img src="images/logo-transparent.png" alt="logo">
+                </a>
+            </div>
+            
+            <div class="column-form1">
+                <form class="formCadastro">
+
+                    <p>Preencha os campos abaixo e faça parte da família iWork!</p>
+
+                    <fieldset>
+                        <legend>Categorias</legend>
+                        <select name="categoria" id="categoria">
+                            <option value="0">Categoria</option>
+                            <option value="construcao">Construção/Reformas</option>
+                            <option value="eletrica">Elétrica</option>
+                            <option value="hidraulica">Hidráulica</option>
+                            <option value="faxina">Serviços Gerais</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Nome e sobrenome</legend>
+                        <input type="text" id="nome" placeholder="Digite seu nome completo">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Email</legend>
+                        <input type="text" id="email" placeholder="Digite seu email">
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Telefone</legend>
+                        <input id="telefone" type="text" placeholder="Digite seu número">
+                    </fieldset>
+
+                </form>
+            </div>
+
+            <div class="column-form2">
+                <form class="formCadastro">
+
+                    <fieldset>
+                        <legend>Região</legend>
+                        <select name="regiao" id="regiao">
+                            <option value="0">Região</option>
+                            <option id="continente" value="continente">Continente</option>
+                            <option id="centro" value="centro">Centro</option>
+                            <option id="norte" value="norte">Norte</option>
+                            <option id="sul" value="sul">Sul</option>
+                            <option id="leste" value="leste">Leste</option>
+                        </select>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Experiência</legend>
+                        <textarea name="descricao" id="experiencia" rows="5" placeholder="Conte um pouco sobre sua experiência na área..."></textarea>
+                    </fieldset>
+                
+                    <fieldset>
+                        <legend>Senha</legend>
+                        <input type="password" name="senha" id="senha" placeholder="Crie uma senha">
+                    </fieldset>
+        
+                    <br>
+        
+                    <button type="button" onclick="valida()">Cadastrar-se</button>
+
+                </form>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
